@@ -19,15 +19,17 @@ Before you start, acquire your designated project repo from the course instructo
 
 One good way to think about your Github account is that it is your personal file cabinet up in the sky. Github offers you this space in the "Cloud" entirely for free. However, anyone can come by and make a copy of your files from that cabinet. This is exactly what happens when you click "Fork".
 
-Forking makes a copy of the selected file system, stored in someone else's Github account, and then adds it to your your account. Once you have a your copy (commonly referred to as your `fork`), you can then use `git clone` to copy those files down to your local computer.
+Forking makes a copy of the selected file system, stored in someone else's Github account, and then adds it to your account. Once you have a your copy (commonly referred to as your `fork`), you can then use `git clone` to copy those files down to your local computer.
 
 Github calls these file sets public repositories, or repos for short. For a fee, Github allows you to put a lock on some of the files in your account. These are called private repos, and Nitro is a great example.
 
-Yesterday we created our first public repo on Github from scratch. Today, you will be using a previous pair's repo to do your work. This means that both of you will need to fork and clone the code down to your laptop. This can be done by "forking" from the Github GUI and using `git clone <copied_ssh_url>`, where the "copied_ssh_url" can be acquired from your fork's repo page.
+Yesterday we created our first public repo on Github from scratch. Today, you will be using another pair's repo to do your work. This means that both of you will need to fork and clone the code down to your laptop. This can be done by "forking" from the Github GUI and using `git clone <copied_ssh_url>`, where the "copied_ssh_url" can be acquired from your fork's repo page.
 
 ## Pull requests
 
-After we've made updates to our local copy of code, our goal is to update the original Github account copy with our improvements. However, even though the files were free to copy, one can not just go back to the cabinet and swap in our new files (how rude!). So what do we do? We ask permission, or make a `request` to `pull` our new additions into the original account. Once we've made this pull request, we wait. When the owner(s) of the Github account have a chance to look at our request, they have the ability to merge it into their "master" copy (a.k.a `master` branch). Now when someone else comes around to copy these files, they will get your updated version.
+After we've made updates to our local copy of code, our goal is to update the original Github account's copy with our improvements. However, even though the files were free to copy, one can not just go back to the cabinet and swap in our new files (how rude!).
+
+So what do we do? We ask permission, or make a `request` to `pull` our new additions into the original account. Once we've made this pull request, we wait. When the owner(s) of the Github account have a chance to look at our request, they have the ability to merge it into their "master" copy (a.k.a `master` branch). Now when someone else comes around to copy these files, they will get your updated version.
 
 ## Instructions
 
