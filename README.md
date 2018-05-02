@@ -82,7 +82,7 @@ A very common HTML element is `<div>` which stands for division. These elements 
 
 Your local browser view should now look like:
 
-![Developer Images](img/developer-images.png?raw=true "Developer Images")
+![Developer Images](img/student-developer-images.png?raw=true "Developer Images")
 
 * Git add, commit, and push your changes
 * Open a PR in Github and include a screenshot of your work in the PR's body. You can drag an drop one in there.
