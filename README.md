@@ -59,6 +59,13 @@ Once the repo owner has merged the `developer_images` PR:
 * `cd` into your copy
 * Create a branch called `display_images`
 * Verify your copy now has two branches by running `git branch`
+
+```
+[Wed May 02 09:35:44]$ git branch
+* display_images
+  master
+```
+
 * Create an `index.html` on root
 * Open your branch in your text editor
 * Create a basic html template in the index.html. This template should include the DOC type, a head, a body, and a title of "Nitro Bootcamp Students"
@@ -85,8 +92,8 @@ Your local browser view should now look like:
 ![Developer Images](img/developer-images.png?raw=true "Developer Images")
 
 * Git add, commit, and push your changes
-* Open a PR in Github and include a screenshot of your work in the PR's body. You can drag an drop one in there.
+* Open a PR in Github and include a screenshot of your work in the PR's body. You can drag and drop images directly into the browser.
 
-It is important to make reviewing Pull Requests as easy on the reviewer as possible. It makes assessing your changes much more understandable.
+It is important to make reviewing Pull Requests as easy for the reviewer as possible. It makes assessing your changes much more understandable.
 
 End this lesson by asking the repo owner to review & merge your work. If you are a repo owner, make sure there is a screen shot of the final product in the PR's body before you accept the changes.
