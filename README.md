@@ -65,3 +65,28 @@ Once the repo owner has merged the `developer_images` PR:
 * Right click (or control+click) on the index.html in your editor to open the view in your default browser.
 
 ![Open in Browser](img/open-in-browser.png?raw=true "Open in Browser")
+
+A new blank browser view should just have opened. Check to see that your title is showing up in the browser tab:
+
+![Browser Title](img/browser-title.png?raw=true "Browser Title")
+
+Experiment with adding some content inside the html `<body>` and refreshing the window.
+
+* Wrap "Nitro Bootcamp Students" in a `<h1>` element, nested inside the body tag
+* Add `<h2>` elements that with each person's name, just like the Markdown README is organized
+
+A very common HTML element is `<div>` which stands for division. These elements are used to logically group related content in a web view.
+
+* Wrap each h2 element in a div with a class attribute of "developer"
+* Inside each div, under the header elements, add an img tag with a source pointing towards the developer images. Size the images as 100x100 pixels. Remember to utilize Google and previous lessons if you run into difficulties.
+
+Your local browser view should now look like:
+
+![Developer Images](img/developer-images.png?raw=true "Developer Images")
+
+* Git add, commit, and push your changes
+* Open a PR in Github and include a screenshot of your work in the PR's body. You can drag an drop one in there.
+
+It is important to make reviewing Pull Requests as easy on the reviewer as possible. It makes assessing your changes much more understandable.
+
+End this lesson by asking the repo owner to review & merge your work. If you are a repo owner, make sure there is a screen shot of the final product in the PR's body before you accept the changes.
