@@ -2,7 +2,7 @@
 
 ## The Plan
 
-This pairing lesson will pivot team member responsibilities in the middle its tasks. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
+This pairing lesson will pivot team member responsibilities in the middle the lesson's tasks. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
 
 Before you start, acquire your designated project repo from the course instructor.
 
@@ -19,7 +19,7 @@ Before you start, acquire your designated project repo from the course instructo
 
 One good way to think about your Github account is that it is your personal file cabinet up in the sky. Github offers you this space in the "Cloud" entirely for free. However, anyone can come by and make a copy of your files from that cabinet. This is exactly what happens when you click "Fork".
 
-Forking makes a copy of the selected file system, stored in someone else's Github account, and then adds it to your account. Once you have a your copy (commonly referred to as your `fork`), you can then use `git clone` to copy those files down to your local computer.
+Forking makes a copy of the selected file system, stored in someone else's Github account, and then adds it to your account. You can then use `git clone` to copy those files down to your local computer.
 
 Github calls these file sets public repositories, or repos for short. For a fee, Github allows you to put a lock on some of the files in your account. These are called private repos, and Nitro is a great example.
 
@@ -85,14 +85,14 @@ A new blank browser view should just have opened. Check to see that your title i
 
 ![Browser Title](img/browser-title.png?raw=true "Browser Title")
 
-Experiment with adding some content inside the html `<body>` and refreshing the window.
+Experiment with adding some content inside the html `body` and refreshing the window.
 
-* Wrap "Nitro Bootcamp Students" in a `<h1>` element, nested inside the body tag
-* Add `<h2>` elements that with each person's name, just like the Markdown README is organized
+* Wrap "Nitro Bootcamp Students" in a `h1` element, nested inside the body tag
+* Add `h2` elements that with each person's name, just like the Markdown README is organized
 
-A very common HTML element is `<div>` which stands for division. These elements are used to logically group related content in a web view.
+A very common HTML element is `div` which stands for division. These elements are used to logically group related content in a web view.
 
-* Wrap each h2 element in a div with a class attribute of "developer"
+* Wrap each `h2` element in a div with a class attribute of "developer"
 * Inside each div, under the header elements, add an img tag with a source pointing towards the developer images. Size the images as 100x100 pixels. Remember to utilize Google and previous lessons if you run into difficulties.
 
 Your local browser view should now look like:
@@ -100,7 +100,7 @@ Your local browser view should now look like:
 ![Developer Images](img/developer-images.png?raw=true "Developer Images")
 
 * Git add, commit, and push your changes
-* Open a PR in Github and include a screenshot of your work in the PR's body. You can drag and drop images directly into the browser.
+* Open a PR in Github and include a screenshot of your work in the PR's body. You can drag and drop images directly into the text area where you write your PR description.
 
 It is important to make reviewing Pull Requests as easy for the reviewer as possible. It makes assessing your changes much more understandable.
 
