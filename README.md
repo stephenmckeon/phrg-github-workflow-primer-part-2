@@ -79,11 +79,11 @@ Once the repo owner has merged the `developer_images` PR:
 * Create a basic html template in the index.html. This template should include the DOC type, a head, a body, and a title of "Nitro Bootcamp Students"
 * Right click (or control+click) on the index.html in your editor to open the view in your default browser.
 
-![Open in Browser](img/open-in-browser.png?raw=true "Open in Browser")
+![Open in Browser](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/open-in-browser.png?raw=true "Open in Browser")
 
 A new blank browser view should just have opened. Check to see that your title is showing up in the browser tab:
 
-![Browser Title](img/browser-title.png?raw=true "Browser Title")
+![Browser Title](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/browser-title.png?raw=true "Browser Title")
 
 Experiment with adding some content inside the html `body` and refreshing the window.
 
@@ -97,7 +97,7 @@ A very common HTML element is `div` which stands for division. These elements ar
 
 Your local browser view should now look like:
 
-![Developer Images](img/developer-images.png?raw=true "Developer Images")
+![Developer Images](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/developer-images.png?raw=true "Developer Images")
 
 * Git add, commit, and push your changes
 * Open a PR in Github and include a screenshot of your work in the PR's body. You can drag and drop images directly into the text area where you write your PR description.
