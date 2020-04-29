@@ -48,20 +48,20 @@ So what do we do? We ask permission, or make a `request` to `pull` our new addit
   master
 ```
 
-* Jump in Connect and download a headshot of each class member. Make sure all 6 photos are on your Desktop.
+* Jump in Connect and download a headshot of each class member. Make sure all 8 photos are on your Desktop.
 * If the photos are not named already, name each of these files with the developer's first and last name, for example: "KraigSchwerin.jpg"
 * From your shell, create a new directory called `img`
-* Use the `mv` command to move all 6 photos into this new directory on your branch.
+* Use the `mv` command to move all 8 photos into this new directory on your branch.
 * Stage half of these `img` files with `git add`
-* Use `git status` to see what state you are in. Discuss why you see what you see with your pair. You should see 3 green files and 3 red files. What is the technical term for the green files? What is the technical term for the red files?
+* Use `git status` to see what state you are in. Discuss why you see what you see with your pair. You should see 4 green files and 4 red files. What is the technical term for the green files? What is the technical term for the red files?
 * Finish `git add`ing the remaining files
 * Commit the images with `git commit` and a short informative message
 * Push them up with your new branch with `git push origin developer_images`
-* Create a Pull Request on Github and ask the repo's owner to review the change
+* Create a Pull Request on Github
 
 ## Switch Drivers
 
-Request the repo owner to merge the `developer_images` PR. After the repo owner has done so:
+Request the repo owner to review and merge the `developer_images` PR. After the repo owner has done so:
 
 * `cd` to your `pairing_projects` directory and verify your location with `pwd`
 * Navigate to the Github repository and fork it into your account
