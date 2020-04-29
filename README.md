@@ -80,10 +80,9 @@ Request the repo owner to merge the `developer_images` PR. After the repo owner 
 * Open your branch in your text editor
 * Create a basic html template in the index.html. This template should include the DOC type, a head, a body, and a title of "Code Academy Students"
 * Right click (or control+click) on the index.html in your editor to open the view in your default browser.
+* Open your new `index.html` in a browser. To do this, copy the absolute path of your file (`pwd`) and paste it into the URL bar in a browser window. Here is an example: `/Users/garettarrowood/Power/learn/garett-and-bryan-first-pairing-project/index.html`
 
-![Open in Browser](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/open-in-browser.png?raw=true "Open in Browser")
-
-A new blank browser view should just have opened. Check to see that your title is showing up in the browser tab:
+Check to see that your title is showing up in the browser tab:
 
 ![Browser Title](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/browser-with-title.png?raw=true "Browser Title")
 
