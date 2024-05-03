@@ -16,3 +16,17 @@ div.developer {
     text-align: center;
   }
 
+  div.food {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline-block; */
+    padding: 6px;
+    text-align: center;
+    /* width: max-content; */
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+  }
+/* width: max-content; border-color:blueviolet; border-width: 5px; margin-top: ; */
