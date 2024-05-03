@@ -16,3 +16,12 @@ div.developer {
     text-align: center;
   }
 
+.foods {
+    border-style: solid;
+    border-color: green;
+    border-radius: 25px;
+    text-align: center;
+    width:500px;
+    padding: 10px;
+    margin: 50px;
+}
